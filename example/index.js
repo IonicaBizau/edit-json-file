@@ -18,10 +18,13 @@ db.collection("foo", function (err, col) {
       , student: true
     }, function (err, data) {
         if (err) { return console.log(err); }
-        var ids = col.find({ student: true });
-        col.getById(ids[0], function (err, c) {
-            if (err) { return console.log(err); }
-            console.log(c);
+        col.each(function (c) {
+            debugger
         });
+        //var ids = col.find({ student: true });
+        //col.getById(ids[0], function (err, c) {
+        //    if (err) { return console.log(err); }
+        //    console.log(c);
+        //});
     });
 });
