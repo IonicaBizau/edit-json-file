@@ -18,7 +18,7 @@ db.collection("foo", function (err, col) {
       , student: true
     }, function (err, data) {
         if (err) { return console.log(err); }
-        col.each(function (c) {
+        col.each(function (c, doc) {
             debugger
         });
         //var ids = col.find({ student: true });
