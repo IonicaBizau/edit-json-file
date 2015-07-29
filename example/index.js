@@ -18,11 +18,11 @@ db.collection("foo", function (err, col) {
     }, {
         firstName: "Bob"
       , lastName: "Smith"
-      , student: true
+      , student: false
       , _id: (1001).toString(16)
     }], function (err, data) {
         if (err) { console.log(err); }
-        col.find(function (err, docs) {
+        col.find({ lastName: "Smith", student: true }, function (err, docs) {
             console.log(err || docs);
         });
     });
