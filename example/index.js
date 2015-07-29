@@ -10,14 +10,18 @@ db.collection("foo", function (err, col) {
     if (err) { return console.log(err); }
 
     // Insert something
-    col.insert({
-        name: {
-            first: "Ionică"
-          , last: "Bizău"
-        }
+    col.insert([{
+        firstName: "Alice"
+      , lastName: "Smith"
       , student: true
-    }, function (err, data) {
-        if (err) { return console.log(err); }
+      , _id: (1000).toString(16)
+    }, {
+        firstName: "Bob"
+      , lastName: "Smith"
+      , student: true
+      , _id: (1001).toString(16)
+    }], function (err, data) {
+        if (err) { console.log(err); }
         col.find(function (err, docs) {
             console.log(err || docs);
         });
