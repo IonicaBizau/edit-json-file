@@ -2,11 +2,12 @@
 var DbMini = require("../lib");
 
 // Create the database
-var db = new DbMini("foo");
-DbMini.root = __dirname + "/dbs";
+var db = new DbMini("foo", {
+    root: __dirname + "/dbs"
+});
 
 // Get the collection
-db.collection("foo", function (err, col) {
+db.collection("bar", function (err, col) {
     if (err) { return console.log(err); }
 
     // Insert something
