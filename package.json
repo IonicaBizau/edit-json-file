@@ -26,6 +26,6 @@
     "type": "git",
     "url": "git@bitbucket.org:IonicaBizau/db-mini.git"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT"
 }
