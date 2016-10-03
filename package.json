@@ -1,0 +1,40 @@
+{
+  "name": "edit-json-file",
+  "description": "Edit a json file with ease.",
+  "keywords": [
+    "edit",
+    "json",
+    "file",
+    "a",
+    "with",
+    "ease"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/edit-json-file.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/edit-json-file/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/edit-json-file#readme",
+  "bin": null
+}
