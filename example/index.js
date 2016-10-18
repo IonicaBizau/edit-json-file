@@ -15,7 +15,7 @@ file.set("is_student", false);
 console.log(file.get());
 // { planet: 'Earth',
 //   name: { first: 'Johnny', last: 'B.' },
-//   is_student: false } }
+//   is_student: false }
 
 // Save the data to the disk
 file.save();
