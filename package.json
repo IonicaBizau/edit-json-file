@@ -36,7 +36,6 @@
     "url": "https://github.com/IonicaBizau/edit-json-file/issues"
   },
   "homepage": "https://github.com/IonicaBizau/edit-json-file#readme",
-  "bin": null,
   "dependencies": {
     "find-value": "^1.0.3",
     "r-json": "^1.2.5",
