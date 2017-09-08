@@ -5,6 +5,7 @@ You can see below the API reference of this module.
 ### `JsonEditor(path, options)`
 
 #### Params
+
 - **String** `path`: The path to the JSON file.
 - **Object** `options`: An object containing the following fields:
  - `stringify_width` (Number): The JSON stringify indent width (default: `2`).
@@ -18,6 +19,7 @@ You can see below the API reference of this module.
 Set a value in a specific path.
 
 #### Params
+
 - **String** `path`: The object path.
 - **Anything** `value`: The value.
 
@@ -28,6 +30,7 @@ Set a value in a specific path.
 Get a value in a specific path.
 
 #### Params
+
 - **String** `path`:
 
 #### Return
@@ -37,6 +40,7 @@ Get a value in a specific path.
 Read the JSON file.
 
 #### Params
+
 - **Function** `cb`: An optional callback function which will turn the function into an asynchronous one.
 
 #### Return
@@ -47,6 +51,7 @@ write
 Write the JSON file.
 
 #### Params
+
 - **String** `The`: file content.
 - **Function** `cb`: An optional callback function which will turn the function into an asynchronous one.
 
@@ -57,6 +62,7 @@ Write the JSON file.
 Save the file back to disk.
 
 #### Params
+
 - **Function** `cb`: An optional callback function which will turn the function into an asynchronous one.
 
 #### Return
@@ -71,6 +77,7 @@ Save the file back to disk.
 Edit a json file.
 
 #### Params
+
 - **String** `path`: The path to the JSON file.
 - **Object** `options`: An object containing the following fields:
 
