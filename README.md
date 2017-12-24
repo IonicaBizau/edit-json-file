@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save edit-json-file
+# Using npm
+npm install --save edit-json-file
+
+# Using yarn
+yarn add edit-json-file
 ```
 
 
