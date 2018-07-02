@@ -10,7 +10,7 @@
     "ease"
   ],
   "license": "MIT",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -44,6 +44,7 @@
     "iterate-object": "^1.3.2",
     "r-json": "^1.2.5",
     "set-value": "^0.4.0",
+    "unset-value": "1.0.0",
     "w-json": "^1.3.5"
   }
 }

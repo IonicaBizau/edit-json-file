@@ -115,6 +115,16 @@ Get a value in a specific path.
 #### Return
 - **Value** The object path value.
 
+### `unset(path)`
+Remove a path from a JSON object.
+
+#### Params
+
+- **String** `path`:
+
+#### Return
+- **JsonEditor** The `JsonEditor` instance.
+
 ### `read(cb)`
 Read the JSON file.
 
