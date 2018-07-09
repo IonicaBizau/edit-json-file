@@ -120,7 +120,7 @@ Remove a path from a JSON object.
 
 #### Params
 
-- **String** `path`:
+- **String** `path`: The object path.
 
 #### Return
 - **JsonEditor** The `JsonEditor` instance.
@@ -202,9 +202,16 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 
  - [`bloggify-tools`](https://github.com/Bloggify/bloggify-tools)—Interactive command line tool to help you win at Bloggify.
+ - [`deyarn`](https://npmjs.com/package/deyarn) (by Spencer Brown)—A command-line tool for converting projects that use Yarn to npm.
+ - [`easybackup`](https://npmjs.com/package/easybackup) (by Bruno Morceli - pirofagista@gmail.com)—Easy way to backup/restore multiple mongodb databases.
  - [`gyaon-cli`](https://npmjs.com/package/gyaon-cli) (by stkay)—
  - [`jollof-cli`](https://npmjs.com/package/jollof-cli) (by Iyobo Eki)—The Entry point to creating and working with Jollof Projects
  - [`jollofjs`](https://npmjs.com/package/jollofjs) (by Iyobo Eki)—The Entry point to creating and working with Jollof Projects
+ - [`menreiki`](https://github.com/bloody-ux/menreiki#readme) (by Nada)—ssr with react
+ - [`menreiki2`](http://gitlab.alipay-inc.com/oc/spa#readme) (by 汗僧)—ssr with react
+ - [`pandocuments`](https://github.com/kontheocharis/pandocuments#readme) (by Constantine Theocharis)—A pandoc helper to quickly initialize school papers (very opinionated)
+ - [`pipe-boy`](https://github.com/slammayjammay/pipe-boy#readme) (by Scott McKenzie)—Interactive CLI to pass output from one command as input to another
+ - [`sheetbase-cli`](https://github.com/316Company/sheetbase-cli#readme) (by 316 Company)—Official CLI for working with Sheetbase projects.
 
 ## :scroll: License
 
