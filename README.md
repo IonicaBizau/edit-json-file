@@ -147,6 +147,13 @@ Write the JSON file.
 #### Return
 - **JsonEditor** The `JsonEditor` instance.
 
+### `empty(cb)`
+Empty the JSON file content.
+
+#### Params
+
+- **Function** `cb`: The callback function.
+
 ### `save(cb)`
 Save the file back to disk.
 
@@ -181,7 +188,7 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## :sparkling_heart: Support my projects
 
-I open-source almost everything I can, and I try to reply everyone needing help using these projects. Obviously,
+I open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,
 this takes time. You can integrate and use these projects in your applications *for free*! You can even change the source code and redistribute (even resell it).
 
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
@@ -204,14 +211,19 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`bloggify-tools`](https://github.com/Bloggify/bloggify-tools)—Interactive command line tool to help you win at Bloggify.
  - [`deyarn`](https://npmjs.com/package/deyarn) (by Spencer Brown)—A command-line tool for converting projects that use Yarn to npm.
  - [`easybackup`](https://npmjs.com/package/easybackup) (by Bruno Morceli - pirofagista@gmail.com)—Easy way to backup/restore multiple mongodb databases.
+ - [`fix-package-versions`](https://github.com/segux/fix-package-versions#readme) (by Jose Segura García)—This is the first approach to a fix package.json versions
  - [`gyaon-cli`](https://npmjs.com/package/gyaon-cli) (by stkay)—
+ - [`hvn`](https://github.com/agrublev/hvn#readme) (by Angel Grablev)—The greatest tool on earth
  - [`jollof-cli`](https://npmjs.com/package/jollof-cli) (by Iyobo Eki)—The Entry point to creating and working with Jollof Projects
  - [`jollofjs`](https://npmjs.com/package/jollofjs) (by Iyobo Eki)—The Entry point to creating and working with Jollof Projects
- - [`menreiki`](https://github.com/bloody-ux/menreiki#readme) (by Nada)—ssr with react
+ - [`live-stream-radio`](https://github.com/torch2424/live-stream-radio#readme) (by Aaron Turner)—24/7 live stream video radio station CLI / API
+ - [`lyo`](https://github.com/bokub/lyo) (by Boris K)—Node.js to browser - The easy way
+ - [`menreiki-init`](https://npmjs.com/package/menreiki-init)—用于创建menreiki项目骨架
  - [`menreiki2`](http://gitlab.alipay-inc.com/oc/spa#readme) (by 汗僧)—ssr with react
  - [`pandocuments`](https://github.com/kontheocharis/pandocuments#readme) (by Constantine Theocharis)—A pandoc helper to quickly initialize school papers (very opinionated)
  - [`pipe-boy`](https://github.com/slammayjammay/pipe-boy#readme) (by Scott McKenzie)—Interactive CLI to pass output from one command as input to another
- - [`sheetbase-cli`](https://github.com/316Company/sheetbase-cli#readme) (by 316 Company)—Official CLI for working with Sheetbase projects.
+ - [`project-initializer`](https://npmjs.com/package/project-initializer) (by Linesh)—A command utility to different kinds of projects with different tech stacks.
+ - [`webify-generator`](https://github.com/sdantuoni/webify-generator#readme) (by Santiago D´Antuoni)—A web application generator
 
 ## :scroll: License
 

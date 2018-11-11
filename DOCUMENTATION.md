@@ -68,6 +68,13 @@ Write the JSON file.
 #### Return
 - **JsonEditor** The `JsonEditor` instance.
 
+### `empty(cb)`
+Empty the JSON file content.
+
+#### Params
+
+- **Function** `cb`: The callback function.
+
 ### `save(cb)`
 Save the file back to disk.
 
