@@ -43,7 +43,7 @@
     "find-value": "^1.0.3",
     "iterate-object": "^1.3.2",
     "r-json": "^1.2.5",
-    "set-value": "^0.4.0",
+    "set-value": "^3.0.1",
     "w-json": "^1.3.5"
   }
 }
