@@ -5,11 +5,11 @@ You can see below the API reference of this module.
 ### `JsonEditor(path, options)`
 
 #### Params
-
 - **String** `path`: The path to the JSON file.
 - **Object** `options`: An object containing the following fields:
  - `stringify_width` (Number): The JSON stringify indent width (default: `2`).
  - `stringify_fn` (Function): A function used by `JSON.stringify`.
+ - `stringify_eol` (Boolean): Wheter to add the new line at the end of the file or not (default: `false`)
  - `autosave` (Boolean): Save the file when setting some data in it.
 
 #### Return
@@ -19,7 +19,6 @@ You can see below the API reference of this module.
 Set a value in a specific path.
 
 #### Params
-
 - **String** `path`: The object path.
 - **Anything** `value`: The value.
 
@@ -30,7 +29,6 @@ Set a value in a specific path.
 Get a value in a specific path.
 
 #### Params
-
 - **String** `path`:
 
 #### Return
@@ -40,7 +38,6 @@ Get a value in a specific path.
 Remove a path from a JSON object.
 
 #### Params
-
 - **String** `path`: The object path.
 
 #### Return
@@ -50,7 +47,6 @@ Remove a path from a JSON object.
 Read the JSON file.
 
 #### Params
-
 - **Function** `cb`: An optional callback function which will turn the function into an asynchronous one.
 
 #### Return
@@ -61,7 +57,6 @@ write
 Write the JSON file.
 
 #### Params
-
 - **String** `The`: file content.
 - **Function** `cb`: An optional callback function which will turn the function into an asynchronous one.
 
@@ -72,14 +67,12 @@ Write the JSON file.
 Empty the JSON file content.
 
 #### Params
-
 - **Function** `cb`: The callback function.
 
 ### `save(cb)`
 Save the file back to disk.
 
 #### Params
-
 - **Function** `cb`: An optional callback function which will turn the function into an asynchronous one.
 
 #### Return
@@ -94,7 +87,6 @@ Save the file back to disk.
 Edit a json file.
 
 #### Params
-
 - **String** `path`: The path to the JSON file.
 - **Object** `options`: An object containing the following fields:
 
