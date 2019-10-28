@@ -53,13 +53,16 @@ let file = editJsonFile(`${__dirname}/foo.json`);
 
 // Set a couple of fields
 file.set("planet", "Earth");
+file.set("city\\.name", "anytown");
 file.set("name.first", "Johnny");
 file.set("name.last", "B.");
 file.set("is_student", false);
 
+
 // Output the content
 console.log(file.get());
-// { planet: 'Earth',
+// { planet: 'Earth', 
+//   city.name: 'anytown',
 //   name: { first: 'Johnny', last: 'B.' },
 //   is_student: false }
 
