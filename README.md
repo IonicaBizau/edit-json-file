@@ -61,7 +61,7 @@ file.set("is_student", false);
 
 // Output the content
 console.log(file.get());
-// { planet: 'Earth', 
+// { planet: 'Earth',
 //   city.name: 'anytown',
 //   name: { first: 'Johnny', last: 'B.' },
 //   is_student: false }
