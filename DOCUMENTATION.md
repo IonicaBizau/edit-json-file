@@ -11,6 +11,7 @@ You can see below the API reference of this module.
  - `stringify_width` (Number): The JSON stringify indent width (default: `2`).
  - `stringify_fn` (Function): A function used by `JSON.stringify`.
  - `stringify_eol` (Boolean): Wheter to add the new line at the end of the file or not (default: `false`)
+ - `ignore_dots` (Boolean): Wheter to use the path including dots or have an object structure (default: `false`)
  - `autosave` (Boolean): Save the file when setting some data in it.
 
 #### Return

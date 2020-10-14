@@ -155,8 +155,8 @@ There are few ways to get help:
  - `stringify_width` (Number): The JSON stringify indent width (default: `2`).
  - `stringify_fn` (Function): A function used by `JSON.stringify`.
  - `stringify_eol` (Boolean): Wheter to add the new line at the end of the file or not (default: `false`)
+ - `ignore_dots` (Boolean): Wheter to use the path including dots or have an object structure (default: `false`)
  - `autosave` (Boolean): Save the file when setting some data in it.
- - `ignoreDots` (Boolean): ignore any dots in keys/paths to not create nested structures.
 
 #### Return
 - **JsonEditor** The `JsonEditor` instance.
@@ -300,15 +300,15 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
+ - `json-config-ts`
  - `@formbird/core`
  - `@williarts/williarts-commons`
  - `menreiki2`
- - `node-file-rev`
  - `@wonderland/cli-plugin-new`
  - `@wonderland/cli-plugin-serverless`
  - `next-nodecms`
+ - `@neutralinojs/neu`
  - `@airbnb/nimbus`
- - `json-config-ts`
  - `frdl`
  - `gyaon-cli`
  - `@allmywallets/specification`
@@ -320,13 +320,13 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `live-stream-radio`
  - `sheetbase-cli`
  - `uiseeds`
- - `returrn`
- - `blip-lang`
  - `extracct`
+ - `blip-lang`
+ - `returrn`
  - `@malmo/cli`
  - `@xploration-tech/xtouch`
- - `@fanxie/cli`
  - `env-to-now-json`
+ - `@fanxie/cli`
  - `@superjs/require-auto`
  - `sisback`
  - `lyo`
@@ -351,7 +351,6 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `cmd-assistant`
  - `push-notifier`
  - `@perlatsp/devild`
- - `mongoose-auto-api.cli`
  - `@kcom/package-tools`
  - `grafpad`
  - `bucket-cli`
@@ -365,7 +364,6 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `admooh-cli`
  - `@openstfoundation/openst-platform`
  - `cucu-generator`
- - `typescript-nestjs-starter`
  - `typescript-fastify-starter`
  - `typescript-koa-starter`
  - `typescript-react-starter`
@@ -373,11 +371,9 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `simple-webpack-starter`
  - `project-initializer`
  - `package-to-local`
- - `@postlight/node-typescript-starter-kit`
  - `express-react-generator-typescript`
  - `react-sgh-scaffolding`
  - `striplet`
- - `typescript-express-starter`
  - `ontrac`
  - `@acanto/october-scripts`
  - `dex-cli`
@@ -390,30 +386,45 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `bhc-cli`
  - `iffe-commit`
  - `@empirica/meteor-deploy`
- - `express-generator-typescript`
- - `@elastosfoundation/trinity-cli`
- - `express-generator-typescript-k8s`
  - `@acanto/workflow`
+ - `express-generator-typescript-k8s`
  - `@chakra-ui/cli`
- - `robinhood-yolo`
- - `@neutralinojs/neu`
- - `bloggify-tools`
  - `create-itk-app`
  - `malmo`
- - `@hayes0724/shopify-packer`
- - `new-express-app`
  - `monstro`
- - `typescript-vue-starter`
  - `@marvinkome/create-node-app`
- - `forcemanager-cli`
- - `@anyopsos/cli`
- - `@teamhive/angular-npm-seed`
  - `@triptyk/nfw-cli`
- - `@jianghe/sand-cli`
- - `jollof-cli`
  - `jollofjs`
+ - `jollof-cli`
+ - `bloggify-tools`
+ - `ootb-express-app`
+ - `generator-brei-app`
+ - `tail-react`
+ - `@wizwarrior/node.ts`
+ - `typescript-nest-starter`
+ - `node-file-rev`
+ - `create-express-template`
+ - `baelte-cli`
+ - `nipinit`
+ - `@postlight/node-typescript-starter-kit`
+ - `@anyopsos/cli`
+ - `d-bot-script`
+ - `modern-project-generator`
+ - `@teamhive/angular-npm-seed`
+ - `typescript-express-starter`
+ - `@elastosfoundation/trinity-cli`
+ - `guser`
+ - `@frdl/frdl`
+ - `@frdl/legacy-and-deprecations-fallback`
+ - `@jianghe/sand-cli`
+ - `forcemanager-cli`
+ - `typescript-vue-starter`
+ - `@grogqli/server`
+ - `@hayes0724/shopify-packer`
  - `@j.u.p.iter/jupiter-scripts`
+ - `@acanto/laravel-scripts`
  - `@rajzik/lumos`
+ - `express-generator-typescript`
 
 
 
