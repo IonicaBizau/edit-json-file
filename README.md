@@ -156,6 +156,7 @@ There are few ways to get help:
  - `stringify_fn` (Function): A function used by `JSON.stringify`.
  - `stringify_eol` (Boolean): Wheter to add the new line at the end of the file or not (default: `false`)
  - `autosave` (Boolean): Save the file when setting some data in it.
+ - `ignoreDots` (Boolean): ignore any dots in keys/paths to not create nested structures.
 
 #### Return
 - **JsonEditor** The `JsonEditor` instance.
