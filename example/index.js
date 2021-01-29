@@ -11,6 +11,10 @@ file.set("city\\.name", "anytown");
 file.set("name.first", "Johnny");
 file.set("name.last", "B.");
 file.set("is_student", false);
+//Create or append to an array
+file.append("classes", "fysics");
+//You can even append objects
+file.append("classes", { class: "Computer Science", where: "KULeuven" });
 
 
 // Output the content
@@ -18,7 +22,18 @@ console.log(file.get());
 // { planet: 'Earth', 
 //   city.name: 'anytown',
 //   name: { first: 'Johnny', last: 'B.' },
-//   is_student: false }
+//   is_student: false,
+//   classes: [
+//     'fysics',
+//     {
+//       'class': 'Computer Science',
+//       'where': 'KULeuven'
+//     }
+//   ]
+// }
+
+//if you want to remove the last element from an array use pop 
+file.pop("classes")
 
 // Save the data to the disk
 file.save();
