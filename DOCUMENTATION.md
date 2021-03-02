@@ -48,6 +48,29 @@ Remove a path from a JSON object.
 #### Return
 - **JsonEditor** The `JsonEditor` instance.
 
+### `append(path, value)`
+Appends a value/object to a specific path.
+If the path is empty it wil create a list.
+
+#### Params
+
+- **String** `path`: The object path.
+- **Anything** `value`: The value.
+
+#### Return
+- **JsonEditor** The `JsonEditor` instance.
+
+### `append(path)`
+pop
+Pop an array from a specific path.
+
+#### Params
+
+- **String** `path`: The object path.
+
+#### Return
+- **JsonEditor** The `JsonEditor` instance.
+
 ### `read(cb)`
 Read the JSON file.
 

@@ -85,6 +85,10 @@ file.set("city\\.name", "anytown");
 file.set("name.first", "Johnny");
 file.set("name.last", "B.");
 file.set("is_student", false);
+//Create or append to an array
+file.append("classes", "fysics");
+//You can even append objects
+file.append("classes", { class: "Computer Science", where: "KULeuven" });
 
 
 // Output the content
@@ -92,7 +96,18 @@ console.log(file.get());
 // { planet: 'Earth',
 //   city.name: 'anytown',
 //   name: { first: 'Johnny', last: 'B.' },
-//   is_student: false }
+//   is_student: false,
+//   classes: [
+//     'fysics',
+//     {
+//       'class': 'Computer Science',
+//       'where': 'KULeuven'
+//     }
+//   ]
+// }
+
+//if you want to remove the last element from an array use pop
+file.pop("classes")
 
 // Save the data to the disk
 file.save();
@@ -184,6 +199,29 @@ Get a value in a specific path.
 
 ### `unset(path)`
 Remove a path from a JSON object.
+
+#### Params
+
+- **String** `path`: The object path.
+
+#### Return
+- **JsonEditor** The `JsonEditor` instance.
+
+### `append(path, value)`
+Appends a value/object to a specific path.
+If the path is empty it wil create a list.
+
+#### Params
+
+- **String** `path`: The object path.
+- **Anything** `value`: The value.
+
+#### Return
+- **JsonEditor** The `JsonEditor` instance.
+
+### `append(path)`
+pop
+Pop an array from a specific path.
 
 #### Params
 
@@ -300,16 +338,17 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
+ - `@airbnb/nimbus`
  - `json-config-ts`
  - `@formbird/core`
+ - `@dolittle/vanir-cli`
  - `@williarts/williarts-commons`
  - `menreiki2`
  - `@wonderland/cli-plugin-new`
  - `@wonderland/cli-plugin-serverless`
+ - `soft-add-dependencies`
  - `next-nodecms`
  - `@neutralinojs/neu`
- - `@airbnb/nimbus`
- - `frdl`
  - `gyaon-cli`
  - `@allmywallets/specification`
  - `easybackup`
@@ -353,78 +392,105 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@perlatsp/devild`
  - `@kcom/package-tools`
  - `grafpad`
- - `bucket-cli`
  - `kanuki-cli`
+ - `bucket-cli`
  - `axereos-hopes`
+ - `admooh-cli`
  - `@aquestsrl/create-app-cli`
  - `intelliter`
  - `karmacv-themes`
  - `gitversion-tool`
  - `@wonderland/new`
- - `admooh-cli`
  - `@openstfoundation/openst-platform`
  - `cucu-generator`
  - `typescript-fastify-starter`
  - `typescript-koa-starter`
  - `typescript-react-starter`
  - `typescript-react-native-starter`
- - `simple-webpack-starter`
  - `project-initializer`
  - `package-to-local`
  - `express-react-generator-typescript`
  - `react-sgh-scaffolding`
  - `striplet`
- - `ontrac`
- - `@acanto/october-scripts`
- - `dex-cli`
- - `@s-ui/changelog`
  - `iffe-cli`
  - `vcommit-cli`
  - `generator-brei-next`
- - `kikd`
- - `semcom`
  - `bhc-cli`
  - `iffe-commit`
  - `@empirica/meteor-deploy`
- - `@acanto/workflow`
  - `express-generator-typescript-k8s`
- - `@chakra-ui/cli`
+ - `robinhood-yolo`
  - `create-itk-app`
  - `malmo`
+ - `new-express-app`
  - `monstro`
  - `@marvinkome/create-node-app`
  - `@triptyk/nfw-cli`
- - `jollofjs`
  - `jollof-cli`
- - `bloggify-tools`
+ - `jollofjs`
  - `ootb-express-app`
- - `generator-brei-app`
+ - `@postlight/node-typescript-starter-kit`
+ - `@anyopsos/cli`
+ - `mongoose-auto-api.cli`
  - `tail-react`
  - `@wizwarrior/node.ts`
  - `typescript-nest-starter`
- - `node-file-rev`
- - `create-express-template`
- - `baelte-cli`
- - `nipinit`
- - `@postlight/node-typescript-starter-kit`
- - `@anyopsos/cli`
+ - `@aburkov/scripts`
  - `d-bot-script`
- - `modern-project-generator`
- - `@teamhive/angular-npm-seed`
- - `typescript-express-starter`
- - `@elastosfoundation/trinity-cli`
  - `guser`
  - `@frdl/frdl`
  - `@frdl/legacy-and-deprecations-fallback`
- - `@jianghe/sand-cli`
  - `forcemanager-cli`
  - `typescript-vue-starter`
- - `@grogqli/server`
+ - `bloggify-tools`
+ - `node-file-rev`
+ - `simple-webpack-starter`
+ - `bo-api-starter`
+ - `grelease`
+ - `@rajzik/lumos`
+ - `@sevta/cli`
+ - `plop-pack-gatsby-starter`
+ - `baelte-cli`
+ - `ontrac`
+ - `@chakra-ui/codemod`
+ - `def-struct`
+ - `@farazahmad759/dricup-crud-express`
+ - `plop-pack-sanity-starter`
+ - `@acanto/october-scripts`
+ - `@acanto/workflow`
+ - `create-express-template`
+ - `dricup`
+ - `@dricup/dricup-cli`
+ - `dricup-cli`
+ - `modern-project-generator`
+ - `@dolittle/webpack`
+ - `@jianghe/sand-cli`
+ - `cli-json-edit`
  - `@hayes0724/shopify-packer`
+ - `@teamhive/angular-npm-seed`
+ - `@elastosfoundation/trinity-cli`
+ - `generator-brei-app`
+ - `my-chakra-ui`
+ - `create-express-typescript-application`
+ - `@mianfrigo/express-typescript-generator`
+ - `@s-ui/changelog`
+ - `dex-cli`
+ - `@ps-devs/shopify-webpack`
  - `@j.u.p.iter/jupiter-scripts`
  - `@acanto/laravel-scripts`
- - `@rajzik/lumos`
+ - `create-nuxt-typescript-component`
+ - `kikd`
+ - `kape`
+ - `semcom`
+ - `@tinyhttp/cli`
+ - `@bronzw/create-discord-js-bot`
+ - `@grogqli/server`
+ - `nipinit`
+ - `typescript-express-starter`
+ - `@something.technology/core`
+ - `@oriflame/lumos`
  - `express-generator-typescript`
+ - `@dolittle/vanir-common`
 
 
 
