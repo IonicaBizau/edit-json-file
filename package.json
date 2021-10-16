@@ -35,7 +35,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/IonicaBizau/edit-json-file.git"
   },
-  "bugs": {
+  "blah bugs": {
     "url": "https://github.com/IonicaBizau/edit-json-file/issues"
   },
   "homepage": "https://github.com/IonicaBizau/edit-json-file#readme",
