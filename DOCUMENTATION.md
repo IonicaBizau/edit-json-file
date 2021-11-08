@@ -60,8 +60,7 @@ If the path is empty it wil create a list.
 #### Return
 - **JsonEditor** The `JsonEditor` instance.
 
-### `append(path)`
-pop
+### `pop(path)`
 Pop an array from a specific path.
 
 #### Params
