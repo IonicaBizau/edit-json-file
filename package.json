@@ -10,7 +10,7 @@
     "ease"
   ],
   "license": "MIT",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -40,10 +40,10 @@
   },
   "homepage": "https://github.com/IonicaBizau/edit-json-file#readme",
   "dependencies": {
-    "find-value": "^1.0.3",
-    "iterate-object": "^1.3.2",
-    "r-json": "^1.2.5",
-    "set-value": "^4.0.1",
-    "w-json": "^1.3.5"
+    "find-value": "^1.0.12",
+    "iterate-object": "^1.3.4",
+    "r-json": "^1.2.10",
+    "set-value": "^4.1.0",
+    "w-json": "^1.3.10"
   }
 }
