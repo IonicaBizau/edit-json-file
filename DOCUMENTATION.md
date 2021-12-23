@@ -17,13 +17,14 @@ You can see below the API reference of this module.
 #### Return
 - **JsonEditor** The `JsonEditor` instance.
 
-### `set(path, value)`
+### `set(path, value, options)`
 Set a value in a specific path.
 
 #### Params
 
 - **String** `path`: The object path.
 - **Anything** `value`: The value.
+- **Object** `options`: The options for set-value (applied only when {ignore_dots} file option is false)
 
 #### Return
 - **JsonEditor** The `JsonEditor` instance.

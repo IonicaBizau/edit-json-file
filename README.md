@@ -176,13 +176,14 @@ There are few ways to get help:
 #### Return
 - **JsonEditor** The `JsonEditor` instance.
 
-### `set(path, value)`
+### `set(path, value, options)`
 Set a value in a specific path.
 
 #### Params
 
 - **String** `path`: The object path.
 - **Anything** `value`: The value.
+- **Object** `options`: The options for set-value (applied only when {ignore_dots} file option is false)
 
 #### Return
 - **JsonEditor** The `JsonEditor` instance.
@@ -340,6 +341,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@acanto/laravel-scripts`
  - `@dolittle/vanir-features`
  - `@airbnb/nimbus`
+ - `@neutralinojs/neu`
  - `json-config-ts`
  - `@dolittle/vanir-cli`
  - `soft-add-dependencies`
@@ -347,8 +349,6 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@wonderland/cli-plugin-serverless`
  - `@wonderland/cli-plugin-new`
  - `@formbird/core`
- - `@neutralinojs/neu`
- - `bo-admin-starter`
  - `admooh-cli`
  - `deploi`
  - `express-generator-typescript`
@@ -373,6 +373,8 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `pipe-boy`
  - `monstro`
  - `create-fw`
+ - `bo-admin-starter`
+ - `minitest-audits`
  - `vcommit-cli`
  - `bhc-cli`
  - `@bronzw/create-discord-js-bot`
@@ -380,7 +382,6 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `fluxxo-generator`
  - `robinhood-yolo`
  - `create-next-library`
- - `bt-translate`
  - `bo-api-starter`
  - `fixed-minor-patch-package-json`
  - `zoral-generator`
@@ -389,7 +390,6 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@postlight/node-typescript-starter-kit`
  - `uiseeds`
  - `webify-generator`
- - `@mtmeyer/create-react-figma-plugin`
  - `@fanxie/cli`
  - `@malmo/cli`
  - `@xploration-tech/xtouch`
@@ -407,8 +407,12 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `intelliter`
  - `typescript-fastify-starter`
  - `express-react-generator-typescript`
+ - `@mtmeyer/create-react-figma-plugin`
+ - `express-ts-app`
  - `@teamhive/angular-npm-seed`
  - `@imklau/react-app`
+ - `bt-translate`
+ - `@oriflame/lumos`
  - `guser`
  - `ootb-express-app`
  - `@marvinkome/create-node-app`
@@ -426,7 +430,6 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `git-normalize`
  - `typescript-express-starter`
  - `menreiki2`
- - `simple-etg`
  - `kape`
  - `bloggify-tools`
  - `@perlatsp/devild`
@@ -434,9 +437,10 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `typescript-vue-starter`
  - `karmacv-themes`
  - `package-to-local`
+ - `@j.u.p.iter/jupiter-scripts`
  - `@panfilo/express-template`
  - `@mianfrigo/express-typescript-generator`
- - `@j.u.p.iter/jupiter-scripts`
+ - `simple-etg`
  - `check-dependency-version-consistency`
  - `@quantform/cli`
  - `malmo`
@@ -449,7 +453,6 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@sapling/cli`
  - `dricup`
  - `generator-brei-next`
- - `@chakra-ui/codemod`
  - `def-struct`
  - `@s-ui/changelog`
  - `@rajzik/lumos`
@@ -470,16 +473,17 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `jad-node-ts-kit`
  - `forcemanager-cli`
  - `use-express-template`
- - `ecochat-term`
- - `@mkvlrn/nodeinit`
  - `modern-node-starter`
  - `@triptyk/nfw-cli`
+ - `@chakra-ui/codemod`
+ - `@mkvlrn/nodeinit`
+ - `crestron-angular-theme`
+ - `ecochat-term`
  - `@aburkov/scripts`
  - `plop-pack-gatsby-starter`
  - `@acanto/workflow`
  - `bo-api-starter-ts`
  - `deployqb`
- - `@ps-devs/shopify-webpack`
  - `blip-lang`
  - `create-nuxt-typescript-component`
  - `@tinyhttp/cli`
@@ -499,7 +503,6 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `react-easy-boilerplate`
  - `create-express-template`
  - `base-express-app-starter`
- - `@deboxsoft/plop-generator`
  - `@hyron/cli`
  - `deyarn`
  - `lazlodb`
@@ -510,6 +513,9 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `grafpad`
  - `axereos-hopes`
  - `kanuki-cli`
+ - `@deboxsoft/plop-generator`
+ - `@imklau/react-boilerplate`
+ - `@colorfulcompany/create-cc-jlmf`
 
 
 
