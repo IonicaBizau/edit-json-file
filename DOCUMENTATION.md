@@ -115,6 +115,12 @@ Save the file back to disk.
 #### Return
 - **Object** The data object.
 
+### `toString()`
+Get the current data as string.
+
+#### Return
+- **String** The stringified data.
+
 ### `editJsonFile(path, options)`
 Edit a json file.
 
