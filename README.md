@@ -259,6 +259,12 @@ Empty the JSON file content.
 
 - **Function** `cb`: The callback function.
 
+### `toString()`
+Get the current data as string.
+
+#### Return
+- **string** The data as string.
+
 ### `save(cb)`
 Save the file back to disk.
 
@@ -338,184 +344,201 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
+ - `@genesislcap/build-kit`
  - `@acanto/laravel-scripts`
- - `@dolittle/vanir-features`
- - `@airbnb/nimbus`
  - `@neutralinojs/neu`
+ - `@dolittle/vanir-features`
+ - `@nattyjs/cli`
  - `json-config-ts`
  - `@dolittle/vanir-cli`
+ - `@airbnb/nimbus`
  - `soft-add-dependencies`
- - `@williarts/williarts-commons`
- - `@wonderland/cli-plugin-serverless`
+ - `@spazious/ts-config`
  - `@wonderland/cli-plugin-new`
+ - `@spazious/eslint-config`
+ - `@spazious/storybook-config`
  - `@formbird/core`
+ - `check-dependency-version-consistency`
+ - `@genesislcap/foundation-cli`
+ - `menreiki-init`
+ - `@olmokit/cli`
+ - `@williarts/williarts-commons`
  - `admooh-cli`
- - `deploi`
- - `express-generator-typescript`
- - `live-stream-radio`
- - `sheetbase-cli`
- - `extracct`
- - `semcom`
- - `lyo`
- - `@empirica/meteor-deploy`
- - `noir-wp-cli`
- - `@johnlindquist/next-lesson`
- - `typescript-react-native-starter`
+ - `create-web-app-template`
+ - `create-fw`
+ - `create-nextjs-skeleton`
  - `create-itk-app`
- - `jollofjs`
- - `@frdl/legacy-and-deprecations-fallback`
- - `grelease`
- - `@sevta/cli`
  - `baelte-cli`
- - `plop-pack-sanity-starter`
+ - `deploi`
+ - `@everything-registry/sub-chunk-1554`
+ - `next-templates`
+ - `lyo`
+ - `live-stream-radio`
+ - `mobcoder-node-express-typescript-generator`
  - `modern-project-generator`
  - `nipinit`
- - `pipe-boy`
  - `monstro`
- - `create-fw`
- - `bo-admin-starter`
- - `minitest-audits`
- - `vcommit-cli`
- - `bhc-cli`
- - `@bronzw/create-discord-js-bot`
- - `simple-rtg`
- - `fluxxo-generator`
- - `robinhood-yolo`
- - `create-next-library`
- - `bo-api-starter`
- - `fixed-minor-patch-package-json`
- - `zoral-generator`
- - `react-native-dom-expo`
- - `blazar-cli`
- - `@postlight/node-typescript-starter-kit`
- - `uiseeds`
- - `webify-generator`
- - `@fanxie/cli`
- - `@malmo/cli`
- - `@xploration-tech/xtouch`
- - `kikd`
- - `@aquestsrl/create-app-cli`
- - `menreiki`
- - `@something.technology/core`
- - `nodman-cli`
+ - `jollofjs`
+ - `noir-wp-cli`
+ - `semcom`
+ - `sheetbase-cli`
+ - `typescript-react-native-starter`
+ - `@kylehue/create-app`
+ - `@frdl/legacy-and-deprecations-fallback`
+ - `@sevta/cli`
+ - `@johnlindquist/next-lesson`
+ - `@wonderland/cli-plugin-serverless`
+ - `copancs-microservice-teemplate`
  - `create-ts-jest`
- - `@openstfoundation/openst-platform`
+ - `@bemedev/npm-publish`
+ - `bhc-cli`
+ - `blazar-cli`
  - `bucket-cli`
- - `@dricup/dricup-cli`
- - `gitversion-tool`
- - `@wonderland/new`
- - `intelliter`
- - `typescript-fastify-starter`
- - `express-react-generator-typescript`
- - `@mtmeyer/create-react-figma-plugin`
- - `express-ts-app`
- - `@teamhive/angular-npm-seed`
- - `@imklau/react-app`
+ - `@bitcoin-computer/node`
  - `bt-translate`
- - `@oriflame/lumos`
- - `guser`
- - `ootb-express-app`
- - `@marvinkome/create-node-app`
- - `dricup-cli`
- - `d-bot-script`
- - `@farazahmad759/dricup-crud-express`
- - `ontrac`
- - `@acanto/october-scripts`
- - `my-chakra-ui`
- - `push-notifier`
+ - `@bronzw/create-discord-js-bot`
+ - `@wonderland/new`
+ - `@xploration-tech/xtouch`
+ - `appium-reporter-plugin`
+ - `aranha-commons`
+ - `express-ts-app`
+ - `doggoreportbot`
+ - `infinicli`
+ - `intelliter`
+ - `fixed-minor-patch-package-json`
+ - `fluxxo-generator`
+ - `@dricup/dricup-cli`
+ - `react-native-dom-expo`
+ - `robinhood-yolo`
+ - `simple-rtg`
+ - `uspk-ui`
+ - `typescript-fastify-starter`
+ - `uiseeds`
+ - `vcommit-cli`
+ - `webify-generator`
+ - `@malmo/cli`
+ - `@mtmeyer/create-react-figma-plugin`
+ - `@imklau/react-app`
+ - `zoral-generator`
+ - `@postlight/node-typescript-starter-kit`
+ - `@teamhive/angular-npm-seed`
+ - `@something.technology/core`
+ - `chakra-12345`
  - `cmd-assistant`
- - `mf-webpack-plugin`
- - `env-to-now-json`
- - `@dolittle/vanir-common`
- - `git-normalize`
- - `typescript-express-starter`
- - `menreiki2`
- - `kape`
+ - `dukecbe`
+ - `d-bot-script`
+ - `create-any-app`
+ - `create-express-ts-api`
  - `bloggify-tools`
- - `@perlatsp/devild`
+ - `dricup-cli`
  - `@superjs/require-auto`
- - `typescript-vue-starter`
- - `karmacv-themes`
- - `package-to-local`
- - `@j.u.p.iter/jupiter-scripts`
+ - `@shoveller/copy-package`
+ - `@orhanemree/create-template`
+ - `@perlatsp/devild`
  - `@panfilo/express-template`
+ - `typescript-vue-starter`
+ - `typescript-express-starter`
  - `@mianfrigo/express-typescript-generator`
- - `simple-etg`
- - `check-dependency-version-consistency`
- - `@quantform/cli`
- - `malmo`
- - `typescript-nest-starter`
- - `simple-webpack-starter`
- - `iffe-cli`
- - `react-sgh-scaffolding`
- - `easybackup`
- - `@allmywallets/specification`
- - `@sapling/cli`
- - `dricup`
- - `generator-brei-next`
- - `def-struct`
- - `@s-ui/changelog`
- - `@rajzik/lumos`
- - `@dolittle/webpack`
- - `cli-json-edit`
- - `@grogqli/server`
- - `@jianghe/sand-cli`
- - `@elastosfoundation/trinity-cli`
- - `returrn`
- - `gyaon-cli`
- - `@kcom/package-tools`
- - `term-of-the-day`
- - `typescript-koa-starter`
- - `project-initializer`
- - `node-rg`
- - `ss-clean-slate`
- - `gev`
- - `jad-node-ts-kit`
- - `forcemanager-cli`
- - `use-express-template`
- - `modern-node-starter`
- - `@triptyk/nfw-cli`
- - `@chakra-ui/codemod`
- - `@mkvlrn/nodeinit`
+ - `@marvinkome/create-node-app`
+ - `git-normalize`
+ - `env-to-now-json`
+ - `guser`
+ - `my-chakra-ui`
+ - `@dolittle/vanir-common`
+ - `menreiki2`
+ - `mf-webpack-plugin`
+ - `@farazahmad759/dricup-crud-express`
+ - `@j.u.p.iter/jupiter-scripts`
  - `crestron-angular-theme`
+ - `@benits/teste-ui`
+ - `cli-json-edit`
+ - `boilerplate-templify-cli`
  - `ecochat-term`
- - `@aburkov/scripts`
- - `plop-pack-gatsby-starter`
- - `@acanto/workflow`
- - `bo-api-starter-ts`
- - `deployqb`
+ - `@grogqli/server`
+ - `@genesislcap/genx2`
+ - `typescript-nest-starter`
+ - `typescript-koa-starter`
+ - `torder-vue-cli`
+ - `@allmywallets/specification`
+ - `@jianghe/sand-cli`
+ - `@kcom/package-tools`
+ - `srf-deploy-qb`
+ - `@elastosfoundation/trinity-cli`
+ - `term-of-the-day`
+ - `simple-webpack-starter`
+ - `@spazious/config`
+ - `@sapling/cli`
+ - `@rajzik/lumos`
+ - `@s-ui/changelog`
+ - `neu-forge`
+ - `malmo`
+ - `modern-node-starter`
+ - `node-rg`
+ - `project-initializer`
+ - `@dolittle/webpack`
+ - `react-vscode-cli`
+ - `react-sgh-scaffolding`
+ - `returrn`
+ - `@chakra-ui/codemod`
+ - `forcemanager-cli`
+ - `feeder-cli`
+ - `easybackup`
+ - `lerna-from-npm`
+ - `@crestron/ch5-shell-utilities-cli`
+ - `dricup`
+ - `h4cksterbot`
+ - `gyaon-cli`
+ - `def-struct`
+ - `iffe-cli`
+ - `jad-node-ts-kit`
+ - `@triptyk/nfw-cli`
+ - `create-cubicus-frontend`
+ - `base-express-app-starter`
+ - `axereos-hopes`
  - `blip-lang`
  - `create-nuxt-typescript-component`
- - `@tinyhttp/cli`
- - `next-nodecms`
- - `jollof-cli`
- - `@anyopsos/cli`
- - `mongoose-auto-api.cli`
- - `new-express-app`
- - `iffe-commit`
- - `striplet`
- - `express-generator-typescript-k8s`
- - `pkgmngrgui`
- - `dex-cli`
- - `typescript-react-starter`
+ - `copancs-microservice-template`
+ - `build-swan-plugin`
  - `cucu-generator`
- - `generator-brei-app`
- - `react-easy-boilerplate`
+ - `create-cubicus-backend`
  - `create-express-template`
- - `base-express-app-starter`
- - `@hyron/cli`
- - `deyarn`
- - `lazlodb`
- - `sisback`
- - `fix-package-versions`
  - `create-express-typescript-application`
- - `pandocuments`
- - `grafpad`
- - `axereos-hopes`
- - `kanuki-cli`
- - `@deboxsoft/plop-generator`
- - `@imklau/react-boilerplate`
+ - `@bemedev/publish-command`
+ - `dex-cli`
+ - `deyarn`
+ - `deployqb`
  - `@colorfulcompany/create-cc-jlmf`
+ - `fix-package-versions`
+ - `express-generator-typescript-k8s`
+ - `mongoose-auto-api.cli`
+ - `next-nodecms`
+ - `kanuki-cli`
+ - `sisback`
+ - `striplet`
+ - `react-easy-boilerplate`
+ - `ts-express-starter`
+ - `typescript-react-starter`
+ - `grafpad`
+ - `iffe-commit`
+ - `infinitumcli`
+ - `@aburkov/scripts`
+ - `mtm-cli`
+ - `@acanto/workflow`
+ - `@deboxsoft/plop-generator`
+ - `new-express-app`
+ - `jollof-cli`
+ - `pandocuments`
+ - `lazlodb`
+ - `pkgmngrgui`
+ - `@hyron/cli`
+ - `@anyopsos/cli`
+ - `@imklau/react-boilerplate`
+ - `@geesmart/zxlib`
+ - `@tinyhttp/cli`
+ - `@fanxie/cli`
+ - `@aquestsrl/create-app-cli`
+ - `create-next-library`
+ - `ss-clean-slate`
 
 
 
