@@ -19,7 +19,7 @@
 
 # edit-json-file
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/edit-json-file.svg)](https://www.npmjs.com/package/edit-json-file) [![Downloads](https://img.shields.io/npm/dt/edit-json-file.svg)](https://www.npmjs.com/package/edit-json-file) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/edit-json-file.svg)](https://www.npmjs.com/package/edit-json-file) [![Downloads](https://img.shields.io/npm/dt/edit-json-file.svg)](https://www.npmjs.com/package/edit-json-file) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/@johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 <a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -144,6 +144,7 @@ console.log(file.toObject());
 
 
 
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -153,6 +154,8 @@ There are few ways to get help:
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 
 
 
@@ -344,201 +347,237 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - `@genesislcap/build-kit`
  - `@acanto/laravel-scripts`
- - `@neutralinojs/neu`
- - `@dolittle/vanir-features`
- - `@nattyjs/cli`
- - `json-config-ts`
- - `@dolittle/vanir-cli`
+ - `@acanto/october-scripts`
+ - `@acanto/workflow`
  - `@airbnb/nimbus`
- - `soft-add-dependencies`
- - `@spazious/ts-config`
- - `@wonderland/cli-plugin-new`
- - `@spazious/eslint-config`
- - `@spazious/storybook-config`
- - `@formbird/core`
- - `check-dependency-version-consistency`
- - `@genesislcap/foundation-cli`
- - `menreiki-init`
- - `@olmokit/cli`
- - `@williarts/williarts-commons`
- - `admooh-cli`
- - `create-web-app-template`
- - `create-fw`
- - `create-nextjs-skeleton`
- - `create-itk-app`
- - `baelte-cli`
- - `deploi`
- - `@everything-registry/sub-chunk-1554`
- - `next-templates`
- - `lyo`
- - `live-stream-radio`
- - `mobcoder-node-express-typescript-generator`
- - `modern-project-generator`
- - `nipinit`
- - `monstro`
- - `jollofjs`
- - `noir-wp-cli`
- - `semcom`
- - `sheetbase-cli`
- - `typescript-react-native-starter`
- - `@kylehue/create-app`
- - `@frdl/legacy-and-deprecations-fallback`
- - `@sevta/cli`
- - `@johnlindquist/next-lesson`
- - `@wonderland/cli-plugin-serverless`
- - `copancs-microservice-teemplate`
- - `create-ts-jest`
- - `@bemedev/npm-publish`
- - `bhc-cli`
- - `blazar-cli`
- - `bucket-cli`
- - `@bitcoin-computer/node`
- - `bt-translate`
- - `@bronzw/create-discord-js-bot`
- - `@wonderland/new`
- - `@xploration-tech/xtouch`
- - `appium-reporter-plugin`
- - `aranha-commons`
- - `express-ts-app`
- - `doggoreportbot`
- - `infinicli`
- - `intelliter`
- - `fixed-minor-patch-package-json`
- - `fluxxo-generator`
- - `@dricup/dricup-cli`
- - `react-native-dom-expo`
- - `robinhood-yolo`
- - `simple-rtg`
- - `uspk-ui`
- - `typescript-fastify-starter`
- - `uiseeds`
- - `vcommit-cli`
- - `webify-generator`
- - `@malmo/cli`
- - `@mtmeyer/create-react-figma-plugin`
- - `@imklau/react-app`
- - `zoral-generator`
- - `@postlight/node-typescript-starter-kit`
- - `@teamhive/angular-npm-seed`
- - `@something.technology/core`
- - `chakra-12345`
- - `cmd-assistant`
- - `dukecbe`
- - `d-bot-script`
- - `create-any-app`
- - `create-express-ts-api`
- - `bloggify-tools`
- - `dricup-cli`
- - `@superjs/require-auto`
- - `@shoveller/copy-package`
- - `@orhanemree/create-template`
- - `@perlatsp/devild`
- - `@panfilo/express-template`
- - `typescript-vue-starter`
- - `typescript-express-starter`
- - `@mianfrigo/express-typescript-generator`
- - `@marvinkome/create-node-app`
- - `git-normalize`
- - `env-to-now-json`
- - `guser`
- - `my-chakra-ui`
- - `@dolittle/vanir-common`
- - `menreiki2`
- - `mf-webpack-plugin`
- - `@farazahmad759/dricup-crud-express`
- - `@j.u.p.iter/jupiter-scripts`
- - `crestron-angular-theme`
- - `@benits/teste-ui`
- - `cli-json-edit`
- - `boilerplate-templify-cli`
- - `ecochat-term`
- - `@grogqli/server`
- - `@genesislcap/genx2`
- - `typescript-nest-starter`
- - `typescript-koa-starter`
- - `torder-vue-cli`
  - `@allmywallets/specification`
- - `@jianghe/sand-cli`
- - `@kcom/package-tools`
- - `srf-deploy-qb`
+ - `@anyopsos/cli`
+ - `@aquestsrl/create-app-cli`
+ - `@bemedev/build-tests`
+ - `@bemedev/npm-publish`
+ - `@bemedev/publish-command`
+ - `@benits/teste-ui`
+ - `@bitcoin-computer/node`
+ - `@bronzw/create-discord-js-bot`
+ - `@cc-cherry/carry-cli`
+ - `@chakra-ui/codemod`
+ - `@colorfulcompany/create-cc-jlmf`
+ - `@crestron/ch5-shell-utilities-cli`
+ - `@deboxsoft/plop-generator`
+ - `@dolittle/vanir-cli`
+ - `@dolittle/vanir-common`
+ - `@dolittle/vanir-features`
+ - `@dolittle/webpack`
+ - `@dricup/dricup-cli`
  - `@elastosfoundation/trinity-cli`
- - `term-of-the-day`
- - `simple-webpack-starter`
- - `@spazious/config`
- - `@sapling/cli`
+ - `@elementarui/elementar-cli`
+ - `@empirica/meteor-deploy`
+ - `@fanxie/cli`
+ - `@farazahmad759/dricup-crud-express`
+ - `@formbird/core`
+ - `@frdl/legacy-and-deprecations-fallback`
+ - `@geesmart/zx-utils`
+ - `@geesmart/zxlib`
+ - `@genesislcap/build-kit`
+ - `@genesislcap/foundation-cli`
+ - `@genesislcap/genx2`
+ - `@grogqli/server`
+ - `@hyron/cli`
+ - `@imklau/react-app`
+ - `@imklau/react-boilerplate`
+ - `@j.u.p.iter/jupiter-scripts`
+ - `@jianghe/sand-cli`
+ - `@johnlindquist/next-lesson`
+ - `@kcom/package-tools`
+ - `@kylehue/create-app`
+ - `@malmo/cli`
+ - `@marvinkome/create-node-app`
+ - `@mateusznejman/neutralinojs-neu-piskel`
+ - `@mianfrigo/express-typescript-generator`
+ - `@mtmeyer/create-react-figma-plugin`
+ - `@nattyjs/cli`
+ - `@neutralinojs/neu`
+ - `@olmokit/cli`
+ - `@orhanemree/create-template`
+ - `@panfilo/express-template`
+ - `@perlatsp/devild`
+ - `@postlight/node-typescript-starter-kit`
  - `@rajzik/lumos`
  - `@s-ui/changelog`
- - `neu-forge`
- - `malmo`
- - `modern-node-starter`
- - `node-rg`
- - `project-initializer`
- - `@dolittle/webpack`
- - `react-vscode-cli`
- - `react-sgh-scaffolding`
- - `returrn`
- - `@chakra-ui/codemod`
- - `forcemanager-cli`
- - `feeder-cli`
- - `easybackup`
- - `lerna-from-npm`
- - `@crestron/ch5-shell-utilities-cli`
- - `dricup`
- - `h4cksterbot`
- - `gyaon-cli`
- - `def-struct`
- - `iffe-cli`
- - `jad-node-ts-kit`
+ - `@sapling/cli`
+ - `@sevta/cli`
+ - `@shoveller/copy-package`
+ - `@something.technology/core`
+ - `@spazious/config`
+ - `@spazious/eslint-config`
+ - `@spazious/storybook-config`
+ - `@spazious/ts-config`
+ - `@superjs/require-auto`
+ - `@teamhive/angular-npm-seed`
+ - `@ten24group/cli24`
+ - `@tinyhttp/cli`
  - `@triptyk/nfw-cli`
- - `create-cubicus-frontend`
- - `base-express-app-starter`
+ - `@williarts/williarts-commons`
+ - `@wonderland/cli-plugin-new`
+ - `@wonderland/cli-plugin-serverless`
+ - `@wonderland/new`
+ - `@xploration-tech/xtouch`
+ - `admooh-cli`
+ - `appium-reporter-plugin`
  - `axereos-hopes`
+ - `baelte-cli`
+ - `base-express-app-starter`
+ - `bhc-cli`
+ - `blazar-cli`
  - `blip-lang`
- - `create-nuxt-typescript-component`
- - `copancs-microservice-template`
+ - `bloggify-tools`
+ - `boilerplate-templify-cli`
+ - `bp-create-block`
+ - `bt-translate`
+ - `bucket-cli`
  - `build-swan-plugin`
- - `cucu-generator`
- - `create-cubicus-backend`
+ - `cap-utils`
+ - `chakra-12345`
+ - `changelog-make`
+ - `check-dependency-version-consistency`
+ - `chrome-extension-maker`
+ - `cli-json-edit`
+ - `cmd-assistant`
+ - `consequunturquae`
+ - `copancs-microservice-teemplate`
+ - `copancs-microservice-template`
+ - `create-any-app`
  - `create-express-template`
+ - `create-express-ts-api`
  - `create-express-typescript-application`
- - `@bemedev/publish-command`
+ - `create-fw`
+ - `create-itk-app`
+ - `create-next-library`
+ - `create-nextjs-skeleton`
+ - `create-nuxt-typescript-component`
+ - `create-ts-jest`
+ - `create-wapi-app`
+ - `create-web-app-template`
+ - `crestron-angular-theme`
+ - `cucu-generator`
+ - `cz-ekthos`
+ - `d-bot-script`
+ - `def-struct`
+ - `deploi`
+ - `deployqb`
  - `dex-cli`
  - `deyarn`
- - `deployqb`
- - `@colorfulcompany/create-cc-jlmf`
- - `fix-package-versions`
+ - `doggoreportbot`
+ - `dricup`
+ - `dricup-cli`
+ - `dukecbe`
+ - `easybackup`
+ - `ecochat-term`
+ - `env-to-now-json`
+ - `evophp`
+ - `express-generator-typescript`
  - `express-generator-typescript-k8s`
- - `mongoose-auto-api.cli`
- - `next-nodecms`
- - `kanuki-cli`
- - `sisback`
- - `striplet`
- - `react-easy-boilerplate`
- - `ts-express-starter`
- - `typescript-react-starter`
+ - `express-ts-app`
+ - `extracct`
+ - `feeder-cli`
+ - `fix-package-versions`
+ - `fixed-minor-patch-package-json`
+ - `fluxxo-generator`
+ - `forcemanager-cli`
+ - `git-normalize`
+ - `gitversion-tool`
  - `grafpad`
+ - `grelease`
+ - `guser`
+ - `gyaon-cli`
+ - `h4cksterbot`
+ - `iffe-cli`
  - `iffe-commit`
+ - `infinicli`
  - `infinitumcli`
- - `@aburkov/scripts`
- - `mtm-cli`
- - `@acanto/workflow`
- - `@deboxsoft/plop-generator`
- - `new-express-app`
+ - `intelliter`
+ - `jad-node-ts-kit`
  - `jollof-cli`
- - `pandocuments`
+ - `jollofjs`
+ - `json-config-ts`
+ - `kanuki-cli`
+ - `kape`
+ - `karmacv-themes`
+ - `kikd`
  - `lazlodb`
+ - `lerna-from-npm`
+ - `live-stream-radio`
+ - `lyo`
+ - `malmo`
+ - `menreiki-init`
+ - `menreiki2`
+ - `mf-webpack-plugin`
+ - `mobcoder-node-express-typescript-generator`
+ - `modern-node-starter`
+ - `modern-project-generator`
+ - `mongoose-auto-api.cli`
+ - `monstro`
+ - `moodui`
+ - `mtm-cli`
+ - `my-chakra-ui`
+ - `nestgram`
+ - `neu-forge`
+ - `new-express-app`
+ - `next-nodecms`
+ - `next-templates`
+ - `nipinit`
+ - `node-mvc-cli`
+ - `node-rg`
+ - `nodman-cli`
+ - `noir-wp-cli`
+ - `ontrac`
+ - `ootb-express-app`
+ - `opticore-core-module`
+ - `package-to-local`
+ - `pandocuments`
+ - `pipe-boy`
  - `pkgmngrgui`
- - `@hyron/cli`
- - `@anyopsos/cli`
- - `@imklau/react-boilerplate`
- - `@geesmart/zxlib`
- - `@tinyhttp/cli`
- - `@fanxie/cli`
- - `@aquestsrl/create-app-cli`
- - `create-next-library`
+ - `project-initializer`
+ - `rcg-mc`
+ - `react-easy-boilerplate`
+ - `react-native-dom-expo`
+ - `react-sgh-scaffolding`
+ - `react-vscode-cli`
+ - `returrn`
+ - `robinhood-yolo`
+ - `roboto-cli`
+ - `semcom`
+ - `sheetbase-cli`
+ - `sicode-generate-starter`
+ - `simple-etg`
+ - `simple-rtg`
+ - `simple-webpack-starter`
+ - `sisback`
+ - `soft-add-dependencies`
+ - `srf-deploy-qb`
  - `ss-clean-slate`
+ - `starfleet-cli`
+ - `striplet`
+ - `svag-cli-utils`
+ - `temporenesciunt`
+ - `term-of-the-day`
+ - `torder-vue-cli`
+ - `ts-express-starter`
+ - `tsoak`
+ - `typescript-express-starter`
+ - `typescript-fastify-starter`
+ - `typescript-koa-starter`
+ - `typescript-nest-starter`
+ - `typescript-react-native-starter`
+ - `typescript-react-starter`
+ - `typescript-vue-starter`
+ - `uiseeds`
+ - `uspk-ui`
+ - `uteveniet`
+ - `vcommit-cli`
+ - `webify-generator`
+ - `zoral-generator`
 
 
 
